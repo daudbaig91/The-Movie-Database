@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6d6bb"
+    android:orientation="vertical"
+    tools:context=".actorSearch">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Serach movie in the web:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textactor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="enter movie name or substring:"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/searchactbttn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#489855"
+        android:text="Search in WEB SERVICES" />
+
+    <ScrollView
+        android:id="@+id/scrollv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/actordisplay1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="40dp"
+            android:scrollHorizontally="false" />
+    </ScrollView>
+
+</LinearLayout>

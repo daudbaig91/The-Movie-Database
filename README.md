@@ -2,7 +2,8 @@
 
 This is university android project in kotlin.
 The App uses the open movie database api to retrieve movies with speicific paramters saving them in a database using Room, it also allows to search and retrieve the saved movies inforamtion from the database.
-It also allows the user to search for a moview or list of movies given a susbstring.
+It also allows the user to search for a movies or list of movies given a susbstring.
+
 
 
 #### App Main Page
@@ -20,4 +21,7 @@ It also allows the user to search for a moview or list of movies given a susbstr
 
 
 #### App Preview Look
+
+###### Saving movies to the database and searching for actors
+
 

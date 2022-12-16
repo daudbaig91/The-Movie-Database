@@ -60,9 +60,13 @@
             android:id="@+id/actordisplay1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/averia_sans_libre_light"
             android:paddingLeft="40dp"
-            android:scrollHorizontally="false" />
+            android:scrollHorizontally="false"
+            android:textSize="18sp" />
     </ScrollView>
 
 </LinearLayout>

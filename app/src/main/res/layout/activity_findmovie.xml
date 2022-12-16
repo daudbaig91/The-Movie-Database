@@ -75,11 +75,13 @@
         android:id="@+id/display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:fontFamily="@font/averia_sans_libre_light"
         android:paddingLeft="40dp"
         android:paddingTop="20dp"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:scrollHorizontally="true"
-        android:textColor="#EEE6E6" />
+        android:textColor="#EEE6E6"
+        android:textSize="16sp" />
 </LinearLayout>

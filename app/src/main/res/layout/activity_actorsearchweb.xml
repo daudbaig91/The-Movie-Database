@@ -33,7 +33,8 @@
         android:paddingBottom="10dp"
         android:textColor="#F2EEEE"
         android:textColorHighlight="#EBE7E7"
-        android:textColorHint="#EDE6E6" />
+        android:textColorHint="#EDE6E6"
+        android:textSize="18sp" />
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -66,6 +67,7 @@
             android:fontFamily="@font/averia_sans_libre_light"
             android:paddingLeft="40dp"
             android:scrollHorizontally="false"
+            android:textColor="#EDECEC"
             android:textSize="18sp" />
     </ScrollView>
 

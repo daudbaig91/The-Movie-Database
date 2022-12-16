@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b6d6bb"
+    android:background="#131B23"
     android:orientation="vertical"
     tools:context=".findmovie">
 
@@ -12,10 +12,12 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/averia_sans_libre_light"
         android:gravity="center"
         android:paddingTop="30dp"
+        android:paddingBottom="10dp"
         android:text="Please Select Your Movie: "
-        android:textColor="@color/black"
+        android:textColor="#2274A5"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -24,9 +26,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
+        android:fontFamily="@font/averia_sans_libre_light"
         android:gravity="center"
         android:hint="Type here:"
         android:paddingBottom="20dp"
+        android:textColor="#F4EFEF"
+        android:textColorHighlight="#EBE1E1"
+        android:textColorHint="#F7F1F1"
+        android:textColorLink="#F4F4F4"
         android:textSize="20sp"></EditText>
 
     <LinearLayout
@@ -38,25 +45,29 @@
             android:id="@+id/searchbttn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="#489855"
-            android:text="Search" />
+            android:background="@drawable/backbutton2"
+            android:fontFamily="@font/averia_sans_libre_light"
+            android:text="Search"
+            android:textColor="#2AFC98" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
-            android:background="#489855"
-            android:text="Save" />
+            android:background="@drawable/backbutton2"
+            android:fontFamily="@font/averia_sans_libre_light"
+            android:text="Save"
+            android:textColor="#2AFC98" />
 
     </LinearLayout>
 
@@ -65,8 +76,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:fontFamily="@font/averia_sans_libre_light"
         android:paddingLeft="40dp"
         android:paddingTop="20dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
         android:scrollHorizontally="true"
-        android:scrollbarAlwaysDrawVerticalTrack="true" />
+        android:textColor="#EEE6E6" />
 </LinearLayout>

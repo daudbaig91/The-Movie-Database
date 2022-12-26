@@ -5,6 +5,7 @@ The App uses the open movie database api to retrieve movies with speicific param
 Users can also search for a movie or list of movies given a susbstring.
 App designed for minimal crashing.
 
+Thanks for reading; // :)
 
 #### App Main Page
 
